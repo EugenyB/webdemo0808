@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Login failed</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<h1>Login failed</h1>
+<div class="red" id="id_red">
+    <h2 th:text="|Login failed with login: ${message}|"></h2>
+</div>
+<a href="/" id="back">Back to login page</a>
+</body>
+</html>
